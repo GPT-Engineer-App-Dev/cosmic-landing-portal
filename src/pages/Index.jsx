@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Rocket, Star, Moon, Sun } from "lucide-react";
+import { Rocket, Star, Moon } from "lucide-react";
 
 const Index = () => {
   return (
@@ -29,9 +29,9 @@ const Index = () => {
               description="The Moon is moving away from Earth at a rate of 1.5 inches per year."
             />
             <FactCard
-              icon={<Sun className="h-10 w-10 text-orange-500" />}
-              title="Sun's Enormity"
-              description="More than one million Earths could fit inside the Sun."
+              icon={<Rocket className="h-10 w-10 text-purple-500" />}
+              title="Jupiter's Vastness"
+              description="About 1,321 Earths could fit inside Jupiter, the largest planet in our solar system."
             />
           </div>
         </div>
